@@ -1,7 +1,7 @@
 # tcnn-tf
 Temporal CNN implementation in TF2 for time series prediction
 
-# Keras TCN
+# TF2/Keras TCNN
 
 Inspiration for this came from https://github.com/philipperemy/keras-tcn amazing repo, but one thing I've noticed is that it doesn't handle well modeling multiple time series, which is exactly what I needed for my project.
 Original paper *Keras Temporal Convolutional Network*. [[paper](https://arxiv.org/abs/1803.01271)]
