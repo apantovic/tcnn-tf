@@ -34,7 +34,7 @@ model.load('load_path')
 ### Arguments
 
 ```python
-model = ModelTCNN(y=train, {'xreg': 0, 
+model = ModelTCNN(y=train, **{'xreg': 0, 
                             'scale_data':True,
                             'num_filters':64,
                             'kernel_size':3,
